@@ -63,7 +63,10 @@ body {
     border: 1px solid #ee8401;
     width: 32px;
     height: 32px;
-    padding: 2px; }
+    padding: 2px; 
+      color: #ee8401;
+
+}
   .survey-list h6 {
     color: #000;
     font-size: 12px;
