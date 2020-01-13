@@ -1,0 +1,131 @@
+body {
+  position: relative;
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 0;
+  margin: 0;
+  background: #e6e6e6 !important; }
+
+.clear-fix {
+  clear: both; }
+
+.feed-section {
+  width: 100%;
+  position: relative;
+  float: left;
+  display: block;
+  background: #fff;
+  padding: 2px;
+  margin-bottom: 12px; }
+  .feed-section a {
+    width: 100%;
+    display: block; }
+  .feed-section p {
+    font-size: 13px;
+    padding: 18px 12px 0px;
+    color: #000; }
+
+.feed-status {
+  width: 100%;
+  position: relative;
+  float: left;
+  display: block; }
+  .feed-status img {
+    max-width: 100%;
+    display: block;
+    width: 14px; }
+  .feed-status a {
+    width: 100%;
+    display: block;
+    font-size: 10px;
+    color: black; }
+    .feed-status a span {
+      padding: 4px; }
+  .feed-status ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; }
+
+.survey-list {
+  width: 100%;
+  position: relative;
+  float: left;
+  display: block;
+  background: #fff;
+  padding: 18px 16px 4px;
+  margin-bottom: 12px; }
+  .survey-list span {
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #ee8401;
+    width: 32px;
+    height: 32px;
+    padding: 2px; }
+  .survey-list h6 {
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.3em; }
+  .survey-list .media {
+    border-bottom: 1px solid rgba(204, 204, 204, 0.6);
+    padding-bottom: 12px; }
+
+.survey-check-list {
+  padding: 18px 6px 2px;
+  position: relative;
+  display: block;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */ }
+  .survey-check-list .checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .survey-check-list .checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0; }
+  .survey-check-list .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 24px;
+    background-color: #eee; }
+  .survey-check-list .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none; }
+  .survey-check-list .checkbox input:checked ~ .checkmark:after {
+    display: block; }
+  .survey-check-list .checkbox .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid #4e4e4e;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
+  .survey-check-list span {
+    border: 1px solid #ccc !important;
+    border-radius: 0px !important; }
+
+/*# sourceMappingURL=main.css.map */
