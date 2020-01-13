@@ -100,7 +100,7 @@ input:focus{
     margin-left: 8px;
 }
 
-.custom-control-label::before {
+.custom-checkbox .custom-control-label::before {
    
     border: 1px solid #c1bebe;
      position: absolute;
@@ -117,19 +117,26 @@ input:focus{
     -ms-user-select: none;
     user-select: none;
 }
-.custom-checkbox{
+.custom-checkbox, .custom-radio{
     margin: 12px 0px;
 }
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #ee8401 !important;
     border-color: #ee8401;
 }
-.custom-control-label::after {
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+    background-color: #ee8401 !important;
+    border-color: #ee8401;
+}
+.custom-checkbox .custom-control-label::after {
    
     width: 20px !important;
     height: 20px !important;
 }
-
+.custom-radio .custom-control-label::after {
+    width: 16px !important;
+    height: 16px !important;
+}
 .btn-primary, .btn-primary:focus{
     background-color: #ee8401 !important;
     border-color: #ee8401 !important;
@@ -139,4 +146,24 @@ input:focus{
     width: 100%;
     box-shadow: none !important;
     
+}
+.modal-header{
+    border-bottom: 0 !important;
+}
+.modal-footer{
+    border-top:0 !important;
+}
+.success img{
+    margin: 0 auto;
+    width: 180px;
+    display: block;
+}
+.success .msg{
+    text-align: center;
+}
+.success .btn{
+    margin: 0 auto;
+}
+.modal-content{
+    border:0px !important;
 }
