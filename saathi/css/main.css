@@ -130,3 +130,13 @@ input:focus{
     height: 20px !important;
 }
 
+.btn-primary, .btn-primary:focus{
+    background-color: #ee8401 !important;
+    border-color: #ee8401 !important;
+    height: 42px;
+    margin-top: 15px;
+    color: #fff;
+    width: 100%;
+    box-shadow: none !important;
+    
+}
